@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Chat de Twitch</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .chat-container {
+      width: 95vw;
+      height: 95vh;
+      border: 4px solid #00ff00;
+      box-shadow: 0 0 15px #00ff00;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="chat-container">
+    <iframe
+      src="https://www.twitch.tv/embed/Lordtraxes/chat?darkpopout"
+      allowfullscreen>
+    </iframe>
+  </div>
+</body>
+</html>
